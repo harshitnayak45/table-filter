@@ -103,7 +103,8 @@ class Filter extends Component {
                   Bathrooms
                 </h5>
               </span>
-              <span> {products2[0].address}</span>
+              <span> {products2[0].address},</span><br></br>
+              <span> {products2[0].city},  {products2[0].state}</span>
               <div className='row mar-top'>
                 <div className='btn-toolbar'>
                   <div
@@ -158,11 +159,11 @@ class Filter extends Component {
       lastPageTitle: 'Go to Last', // Last page button title
       paginationShowsTotal: this.renderShowsTotal, // Accept bool or function
       paginationPosition: 'bottom', // default is bottom, top and both is all available
-      // keepSizePerPageState: true //default is false, enable will keep sizePerPage dropdown state(open/clode) when external rerender happened
-      // hideSizePerPage: true > You can hide the dropdown for sizePerPage
-      // alwaysShowAllBtns: true // Always show next and previous button
-      // withFirstAndLast: false > Hide the going to First and Last page button
-      // hidePageListOnlyOnePage: true > Hide the page list if only one page.
+       //keepSizePerPageState: true, //default is false, enable will keep sizePerPage dropdown state(open/clode) when external rerender happened
+      // hideSizePerPage: true, // You can hide the dropdown for sizePerPage
+       alwaysShowAllBtns: true, // Always show next and previous button
+       withFirstAndLast: false, // Hide the going to First and Last page button
+       hidePageListOnlyOnePage: true, // Hide the page list if only one page.
      
     }
     let { priceFilter } = this.state
