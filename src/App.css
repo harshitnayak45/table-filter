@@ -556,3 +556,27 @@ span.text-box {
   padding: 3px 3px;
 }
 .sidebar-icon .fa{font-size: 20px}
+
+.pro-image img {
+  width: 100%;
+  height: 292px;
+  
+}
+button.button.btn.btn-warning.btn-sm {
+  margin-right: 10px;
+}
+.row.mar-top {
+  margin-top: 166px;
+}
+.btn-group.custom-filter {
+
+  display: inline-flex;
+  
+}
+.slider-in{display: flex}
+.custom-container{width: 100%;}
+.pro-image-pr{overflow: hidden;}
+.pro-image:hover img {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}

@@ -31,7 +31,7 @@ class Header extends Component {
                                 </ul>
                             </li>
                             <li className="dropdown">
-                                <Link id="user-profile" to={'/'} className="dropdown-toggle" data-toggle="dropdown"><img src="http://lorempixel.com/100/100/people/9/" className="img-responsive img-thumbnail img-circle"/> Username</Link>
+                                <Link id="user-profile" to={'/'} className="dropdown-toggle" data-toggle="dropdown"><img src="http://lorempixel.com/100/100/people/9/" className="img-responsive img-thumbnail img-circle"/> Sofiane May</Link>
                                
                             </li>
                         </ul>

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 class Dummy extends Component {
+    
     render() {
         return (
             <div>
